@@ -1,7 +1,15 @@
 import React from 'react';
 
+import GlobalStyle from './styles/global'
+import Routes from './routes';
+
 function App() {
-  return <h1>Glória a Deus!!!</h1>
+  return (
+    <>
+        <Routes />
+        <GlobalStyle />
+    </>
+  );
 }
 
 export default App;
